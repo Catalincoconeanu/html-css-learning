@@ -1,0 +1,33 @@
+/*changes the body background color*/
+body{
+    background-color: antiquewhite;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 5px solid darkgreen;
+    /*Adding a background image with css from local repository inside the div tag*/
+    background-image: url("../images/icon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*add a border radius css style */
+    border-radius: 100%;
+}
+/*Add a general css rules set for all img tags */
+
+img{
+    border: 10px groove orangered;
+    /*This border radius style will apply to all main class img*/
+    border-radius: 100%;
+}
+/*creates rules sets for each img class,always must start with .classname*/
+
+.man2{
+    border: 10px dot-dot-dash aliceblue;
+}
+.man3{
+    border: 10px dashed darkcyan;
+}
+.man4{
+    border: 10px groove green;
+}

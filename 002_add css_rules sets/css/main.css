@@ -1,0 +1,23 @@
+/**changes the body background color**/
+body{
+    background-color: antiquewhite;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+/**Add a general css rules set for all img tags **/
+img{
+    border: 10px groove orangered;
+}
+/**creates rules sets for each img class,always must start with .classname**/
+.man2{
+    border: 10px dot-dot-dash aliceblue;
+}
+.man3{
+    border: 10px dashed darkcyan;
+}
+.man4{
+    border: 10px groove green;
+}
