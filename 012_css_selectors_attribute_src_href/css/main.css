@@ -1,0 +1,10 @@
+[src]
+{
+    color: orangered;
+    border:1px dashed black;
+}
+[href]
+{
+    color: darkgreen;
+    border: 1px dashed darkred;
+}
