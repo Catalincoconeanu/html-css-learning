@@ -1,0 +1,16 @@
+body{
+    font-size: 26px;
+}
+
+/*Last child from the bottom up -10 */
+
+li:nth-last-child(10)
+{
+    color: greenyellow;
+}
+
+/* Trick: The nrs 10 and 8 can be adjusted to the counting you need*/
+li:nth-child(10n+8)
+{
+    color: red;
+}

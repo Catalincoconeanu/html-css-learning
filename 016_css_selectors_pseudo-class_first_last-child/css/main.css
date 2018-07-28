@@ -1,0 +1,17 @@
+body{
+    border: 5px dashed black;
+    font-size: 36px;
+}
+li:first-child{
+    color: green;
+}
+ul:first-child{
+    background-color: whitesmoke;
+    border: 3px dashed black;
+}
+li:last-child{
+    color: red;
+}
+ul:last-child{
+    background-color: darkcyan;
+}
