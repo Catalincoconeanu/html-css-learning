@@ -14,3 +14,9 @@ li:nth-child(10n+8)
 {
     color: red;
 }
+
+/*only-child*/
+article:only-child
+{
+    color: yellow;
+}
