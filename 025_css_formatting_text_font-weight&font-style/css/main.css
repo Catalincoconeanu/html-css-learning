@@ -1,0 +1,24 @@
+/*
+font-weight:
+    -normal
+    -bold
+    -lighter
+    -bolder
+Can use numbers from 100  .... to .... 900
+
+font-style:
+    -normal
+    -Italic
+    -oblique
+*/
+h1
+{
+    font-weight: normal;
+    /*browser default for h1 is bold*/
+}
+p
+{
+    font-family: cursive;
+    font-size: 4rem;
+    font-weight: bold;
+}

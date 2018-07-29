@@ -1,0 +1,14 @@
+/*1rem is measuring the size or the M letter, this will take the defaul size of the browser */
+h1
+{
+    font-size: 1rem;
+}
+/*
+{
+    font-size: 1.5rem; - root font size (browser defaults )
+}
+h1
+{
+    font-size: 4vw; ---  view port width (consult canIuse website )
+}
+*/
