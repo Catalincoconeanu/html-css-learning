@@ -1,0 +1,10 @@
+/* Line height give space between different lines*/
+p,h1
+{
+    font-weight: normal;
+    font-variant: small-caps;
+    /*adds spaces between lines*/
+    line-height: 3;
+    border: 2px dashed black;
+}
+

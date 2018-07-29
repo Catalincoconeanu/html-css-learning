@@ -1,0 +1,17 @@
+/* Examples, can act as shorthand
+font-variant:
+            normal;
+            small-caps;
+            titling-caps;
+            unicase;
+text-transform:
+            uppercase;
+            lowercase;
+            capitalize;  */
+
+h1{
+    font-variant: small-caps;
+}
+p{
+    text-transform: uppercase;
+}
