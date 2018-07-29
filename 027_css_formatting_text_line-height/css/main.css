@@ -3,7 +3,7 @@ p,h1
 {
     font-weight: normal;
     font-variant: small-caps;
-    /*adds spaces between lines*/
+    /*add spaces between lines*/
     line-height: 3;
     border: 2px dashed black;
 }
