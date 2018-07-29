@@ -1,0 +1,6 @@
+/*if you select a specific font you must set a default font, if other users doesnt have
+the specific font installed on their PCs the browser will select the default font in our case is cursive font*/
+h1
+{
+    font-family: "Helvetica neue", cursive;
+}
