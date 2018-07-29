@@ -1,0 +1,27 @@
+/*with character *  you target all elements on the page*/
+*
+{
+    border: 2px dashed hotpink;
+}
+html
+{
+    border: 2px dashed green;
+}
+body
+{
+    border: 2px dashed black;
+}
+div
+{
+    height: 200px;
+}
+img
+{
+    /*we have to change the display to block because the default is inline*/
+    display: block;
+    /*This will center the image*/
+    margin: 0 auto;
+    /*The border will apply only to element not the div*/
+    border: 10px groove green;
+    padding: 10px;
+}

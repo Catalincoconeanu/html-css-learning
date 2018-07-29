@@ -1,0 +1,32 @@
+body
+{
+    width: 50%;
+    height: 50%;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 36px;
+}
+
+/*This is targeting all p tags inside the div*/
+div p
+{
+    font-family: cursive;
+}
+/*This is targeting the all tags immediately beneath the div tag*/
+div>p
+{
+    color: red;
+}
+
+/*This is targeting all p tags that are sibling following the div*/
+div~p
+{
+    border: 3px dashed black;
+}
+
+/*This targeting all p tags that are an immediate sibling following the div*/
+
+div+p
+{
+    background-color: orange;
+}
