@@ -1,0 +1,6 @@
+/*add space between letters with letter-spacing*/
+p
+{
+    letter-spacing: 8px;
+    word-spacing; color: red;
+}
