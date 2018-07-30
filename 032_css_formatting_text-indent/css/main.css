@@ -1,0 +1,12 @@
+html
+{
+    background-color: whitesmoke;
+}
+p
+{
+    margin: 20px;
+    /*max-width - cant get bigger then 550px*/
+    max-width: 550px;
+    text-indent: 3rem;
+    text-shadow: 1px 1px; 2px red;
+}

@@ -7,3 +7,5 @@ p
     color: green;
     text-decoration: line-through underline overline;
 }
+
+/*or we can use <del> tag for deleted text*/
