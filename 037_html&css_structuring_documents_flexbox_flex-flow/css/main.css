@@ -5,7 +5,8 @@ header{
     flex-wrap: wrap;
     /*track the numbers to understand the layout*/
     /*the primary axis is the primary flex direction you have set*/
-    flex-direction: row-reverse;
+    /*you have to specify axis then property*/
+    flex-direction: row wrap;
 }
 /*flex items*/
 div
