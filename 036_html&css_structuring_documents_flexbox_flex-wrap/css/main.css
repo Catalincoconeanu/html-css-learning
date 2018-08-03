@@ -1,0 +1,24 @@
+/* no-wrap is the default */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction is by default row, but you can select column*/
+    flex-direction: row;
+}
+/*flex items*/
+div
+{
+    /*formatting*/
+    width: 120px;
+    height: 120px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+    /*flex-grow will make the divs to take all width or resize*/
+    flex-grow: 1;
+}
+
+/* more info at: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/

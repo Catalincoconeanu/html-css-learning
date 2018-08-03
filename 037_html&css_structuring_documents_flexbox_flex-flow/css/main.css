@@ -1,0 +1,25 @@
+/* no-wrap is the default */
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    /*track the numbers to understand the layout*/
+    /*the primary axis is the primary flex direction you have set*/
+    flex-direction: row-reverse;
+}
+/*flex items*/
+div
+{
+    /*formatting*/
+    width: 120px;
+    height: 120px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+    /*flex-grow will make the divs to take all width or resize*/
+    flex-grow: 1;
+}
+
+/* more info at: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
