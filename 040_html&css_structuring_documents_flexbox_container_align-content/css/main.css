@@ -1,0 +1,22 @@
+body
+{
+    border: 3px solid darkred;
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: row wrap;
+    /*switch between align-items and align-content to understand the layout*/
+    align-items: flex-start;
+    /*align-content: flex-start;*/
+    width: 1800px;
+    height: 800px;
+}
+div
+{
+    width: 150px;
+    height: 100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 1em;
+    text-align: center;
+
+}
