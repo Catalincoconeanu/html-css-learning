@@ -1,0 +1,30 @@
+body
+{
+    display: flex;
+}
+div
+{
+    border: 2px solid darkred;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background-color: yellowgreen;
+    flex-basis: 400px;
+}
+/*shrinks the content*/
+.flex1
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.flex2
+{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.flex3
+{
+    flex-grow: 3;
+    flex-shrink: 3;
+}

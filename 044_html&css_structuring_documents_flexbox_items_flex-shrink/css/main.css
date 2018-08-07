@@ -1,0 +1,26 @@
+body
+{
+    display: flex;
+}
+div
+{
+    border: 2px solid darkred;
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background-color: yellowgreen;
+}
+/*shrinks the content*/
+.flex1
+{
+    flex-shrink: 1;
+}
+.flex2
+{
+    flex-shrink: 1;
+}
+/*this class will shrink more then others*/
+.flex3
+{
+    flex-shrink: 3;
+}
